@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | My Web Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Contact Form -->
+  <section class="contact-section">
+    <h2>Contact Me</h2>
+    <p>If you’d like to get in touch, please fill out the form below:</p>
+
+    <form id="contactForm">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" placeholder="Your name">
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com">
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" placeholder="Write your message..."></textarea>
+
+      <button type="submit">Send Message</button>
+
+      <!-- Feedback messages -->
+      <p id="error" class="error-message"></p>
+      <p id="success" class="success-message"></p>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Parul Kulkarni. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
